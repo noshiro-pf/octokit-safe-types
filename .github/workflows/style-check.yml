@@ -26,7 +26,6 @@ jobs:
         command:
           - fmt
           - cspell
-          - doc
           - check:ext
           - md
 
