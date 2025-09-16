@@ -8,7 +8,7 @@ A library of readonly versions of Octokit types and their corresponding validato
 2. Run `npm run gh:apply-all` to update GitHub Repository Settings.
 3. Set secrets on [GUI settings page](https://github.com/noshiro-pf/octokit-safe-types/settings/secrets/actions).
     - `NPM_TOKEN`
-        - <https://www.npmjs.com/settings/<user-id>/tokens> -> Generate New Token -> Classic Token -> Select `Automation` and generate.
+        - Open [npm settings page](https://www.npmjs.com/settings/{your-user-id}/tokens) -> Generate New Token -> Classic Token -> Select `Automation` and generate.
         - Required for semantic-release to run npm publish
     - `SEMANTIC_RELEASE_GIT_PERMISSION_BOT_PRIVATE_KEY`
         - https://github.com/apps/semantic-release-git-permission -> App settings -> Generate a private key
