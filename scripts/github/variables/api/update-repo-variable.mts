@@ -9,7 +9,7 @@ export const updateRepoVariable = async ({
   name: string;
   value: string;
 }>): Promise<void> => {
-  // https://docs.github.com/ja/rest/repos/rules?apiVersion=2022-11-28#update-a-repository-ruleset
+  // https://docs.github.com/en/rest/actions/variables#update-a-repository-variable
   await octokit.request(
     'PATCH /repos/{owner}/{repo}/actions/variables/{name}' satisfies EndpointKeys,
     {
