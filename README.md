@@ -1,3 +1,11 @@
+> [!IMPORTANT]
+>
+> **This repository has moved to [noshiro-pf/mono](https://github.com/noshiro-pf/mono).**
+>
+> Development continues at [`libs/octokit-safe-types`](https://github.com/noshiro-pf/mono/tree/main/libs/octokit-safe-types).
+> The full commit history and every tag came along; releases and issues stay
+> readable here.
+
 # octokit-safe-types
 
 A library of readonly versions of Octokit types and their corresponding validators.
